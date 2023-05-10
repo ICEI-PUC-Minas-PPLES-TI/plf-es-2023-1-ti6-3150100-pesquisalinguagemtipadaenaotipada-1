@@ -1,18 +1,22 @@
-# Nome do projeto
+# TIS 6 - Análise comparativa de linguagens tipadas e tipadas mais populares
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+A escolha da linguagem de programação pode ter um grande impacto no desenvolvimento de software. Com o surgimento de diversas linguagens de programação ao longo do tempo, pode ser desafiador escolher a melhor opção para uma determinada aplicação. 
+Nesse contexto, a pesquisa TIS 6 propõe uma análise comparativa entre as linguagens tipadas e as tipadas mais populares, com o objetivo de avaliar as diferenças, vantagens e desvantagens de cada uma delas. Essa análise pode auxiliar desenvolvedores e arquitetos de software na escolha da linguagem mais adequada para seus projetos, considerando fatores como qualidade de desenvolvimento, tamanho da participação da comunidade e facilidade de correção de bugs.
+
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
+* Belle Nerissa Aguiar Elizeu
+* Ian Asenjo Dominguez Cunha
+* Jully Ketely Alves da Silva
+* Laura Lourdes Coutinho Rodrigues
+* Warley Leandro dos Anjos
 
 ## Professores responsáveis
 
-* Nome do orientador de conteúdo (TCCI)
-* Nome do orientador de acadêmico (TCCI)
-* Nome do orientador de TCC II
+* Jose Laerte Pires Xavier Junior
+* Gabriel de Oliveira Campos Pacheco
 
-## Instruções de Replicação/Reprodução
+## Instruções de utilização
 
-Apresentar instruções de como o trabalho pode ser replicado/reproduzido.
+[Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.]
