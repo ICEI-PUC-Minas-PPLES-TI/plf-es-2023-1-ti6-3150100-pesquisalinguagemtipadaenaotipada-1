@@ -1,8 +1,8 @@
 import pandas as pd
 
 # ler os dois arquivos csv
-df2 = pd.read_csv('Codigo/Metrics/JavascriptRepos/qualityMetrics.csv')
-df1 = pd.read_csv('Codigo/Output/JavascriptRepos/repositories.csv')
+df2 = pd.read_csv('Codigo/Metrics/TypescriptRepos/qualityMetrics.csv')
+df1 = pd.read_csv('Codigo/Output/TypescriptRepos/repositories.csv')
 
 # verificar se há linhas faltando comparando "nameWithOwner" com "RepoName"
 missing_rows = df1[~df1['nameWithOwner'].isin(df2['RepoName'])]
