@@ -24,7 +24,7 @@ repositories_query = """
             }
           }
         }
-        openIssues: issues(states: OPEN, labels: ["Type: bug", "bug"]) {
+        openIssues: issues(states: OPEN, labels: ["Type: bug", "bug", "error", "fix"]) {
           totalCount
         }
       }
@@ -37,7 +37,7 @@ repositories_query = """
 query_issues = """
   {
     repository(owner: "{owner}", name: "{name}") {
-    issues(last: 100, states: CLOSED, labels: ["Type: bug", "bug", "error", "fix"], after: null) {
+    issues(last: 100, states: CLOSED, labels: ["Type: bug", "bug", "error", "fix"], after: {after}) {
      pageInfo {
         hasNextPage
         endCursor
@@ -50,6 +50,15 @@ query_issues = """
         }
       }
     }
+  }
+  }
+"""
+query_pr = """
+  {
+    repository(owner: "{owner}", name: "{name}") {
+    pullRequests {
+            totalCount
+            }
   }
   }
 """
