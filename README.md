@@ -17,6 +17,5 @@ Nesse contexto, a pesquisa TIS 6 propõe uma análise comparativa entre as lingu
 * Jose Laerte Pires Xavier Junior
 * Gabriel de Oliveira Campos Pacheco
 
-## Instruções de utilização
-
-[Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.]
+## Link do artigo oficial do projeto 
+https://www.overleaf.com/read/nzzhcdyxgjbs

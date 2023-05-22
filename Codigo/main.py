@@ -71,16 +71,16 @@ def cloneRepositories(nameWithOwner: str, url: str, stargazers: int, mentionable
 
 def main(num_repos: int, languages: list[str]):
     # Executa o comando de inicialização do docker
-    # subprocess.run(startDockerCommand)
-    # uploadSonar()
+    subprocess.run(startDockerCommand)
+    uploadSonar()
 
-    # # Mineração repositorios
-    # for language in languages:
-    #     print(f'Generating {language.capitalize()} Repositories CSV...')
-    #     repos.generate_csv(num_repos, language)
+    # Mineração repositorios
+    for language in languages:
+        print(f'Generating {language.capitalize()} Repositories CSV...')
+        repos.generate_csv(num_repos, language)
 
-    # # Obtenha o arquivo de entrada e filtre os repositórios já lidos
-    # rp_list = pd.read_csv(JS_INPUT_FILE)
+    # Obtenha o arquivo de entrada e filtre os repositórios já lidos
+    rp_list = pd.read_csv(JS_INPUT_FILE)
 
     # Leitura do CSV
     repos_csv = pd.read_csv(JS_INPUT_FILE, sep=',')
@@ -96,12 +96,12 @@ def main(num_repos: int, languages: list[str]):
             num_repos, "Javascript", owner, name)
 
     # # Execute as métricas Sonar para cada repositório
-    # results = []
-    # for row in rp_list.itertuples():
-    #     result = cloneRepositories(
-    #         row[1], row[2], row[3], row[4], row[5], row[6], row[7])
-    #     if result is not None:
-    #         results.append(result)
+    results = []
+    for row in rp_list.itertuples():
+        result = cloneRepositories(
+            row[1], row[2], row[3], row[4], row[5], row[6], row[7])
+        if result is not None:
+            results.append(result)
 
 
 if __name__ == '__main__':
