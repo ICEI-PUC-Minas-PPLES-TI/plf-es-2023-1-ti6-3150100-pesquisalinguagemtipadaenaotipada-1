@@ -19,3 +19,6 @@ Nesse contexto, a pesquisa TIS 6 propõe uma análise comparativa entre as lingu
 
 ## Link do artigo oficial do projeto 
 https://www.overleaf.com/read/nzzhcdyxgjbs
+
+## Link do video (Google Drive)
+https://drive.google.com/file/d/1BYFks9LgNALR_X2FcABj8tnG4r04JywM/view?usp=sharing
