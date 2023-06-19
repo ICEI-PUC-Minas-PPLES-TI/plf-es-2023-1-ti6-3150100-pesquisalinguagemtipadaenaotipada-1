@@ -5,12 +5,8 @@ Este diretório mantém os artefatos do projeto.
 
 Liste os artefatos produzidos, com suas localizações e descrição do conteúdo.
 
-Por exemplo, pode-se criar um diretório "atas", que seria descrito da seguinte forma:
-* `/atas`
-	* **Ata_xx_ago_2020.docx**: Ata de reunião do dia xx de agosto de 2020.
+* `/Artigo`
+	* **TIS_VI__Análise_comparativa_de_linguagens_tipadas_e_tipadas_mais_populares.pdf**: Artigo de pesquisa de Análise Comparativa de Linguagem Tipadas e Não Tipadas mais Populares do dia 19 de agosto de 2023.
 
-Pode-se também criar um diretório "canvas", que seria descrito da seguinte forma:
-* `/canvas`
-	* **BusinessModelCanvas.pdf**: Canvas do modelo de negócios.
-
-Assim, sucessivamente para outros artefatos como `processos` e `DER`, etc.
+* `/Graficos`
+	* **{*}.png**: Graficos gerados para análise de métricas.
