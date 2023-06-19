@@ -1,31 +1,29 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Análise Comparativa de Linguagens Tipadas e Não Tipadas Mais Populares
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Aguiar Elizeu
+    given-names: Belle Nerissa
+  - family-names: Dominguez Cunha
+    given-names: Ian Asenjo
+  - family-names: Alves da Silva
+    given-names: Jully Ketely
+  - family-names: Coutinho Rodrigues
+    given-names: Laura Lourdes
+  - family-names: dos Anjos
+    given-names: Warley Leandro
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Pires Xavier Júnior
+    given-names: José Laerte
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Campos Pacheco
+    given-names: Gabriel de Oliveira
 keywords:
-  - 
-  - 
-repository-code: 
+  - Linguagens tipadas
+  - Linguagens não tipadas
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-1-ti6-3150100-pesquisalinguagemtipadaenaotipada-1
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2023-07-19
